@@ -5,8 +5,9 @@ library(glue)
 library(shinythemes)
 library(bslib)
 library(shinylive)
+library(thematic)
 
-#shinylive::export(appdir = ".", destdir = "docs")
+shinylive::export(appdir = ".", destdir = "docs")
 
 
 thematic_shiny(font="auto")
