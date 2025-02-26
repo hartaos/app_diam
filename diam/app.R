@@ -9,6 +9,8 @@ library(thematic)
 
 shinylive::export(appdir = ".", destdir = "docs")
 
+file.create("diam/docs/.nojekyll")
+
 
 thematic_shiny(font="auto")
 
